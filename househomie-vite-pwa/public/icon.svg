@@ -1,0 +1,19 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
+  <defs>
+    <linearGradient id='skyGrad' x1='0%' y1='0%' x2='0%' y2='100%'>
+      <stop offset='0%' style='stop-color:#87CEEB;stop-opacity:1'/>
+      <stop offset='100%' style='stop-color:#5DADE2;stop-opacity:1'/>
+    </linearGradient>
+  </defs>
+  <rect width='200' height='200' rx='45' fill='url(#skyGrad)'/>
+  <path d='M100 45 L145 75 L145 140 C145 145 140 150 135 150 L65 150 C60 150 55 145 55 140 L55 75 Z' fill='#FFA500'/>
+  <path d='M100 35 L160 80 L150 80 L150 70 Z' fill='#FF6347'/>
+  <path d='M100 35 L40 80 L50 80 L50 70 Z' fill='#FF6347'/>
+  <path d='M85 100 L115 100 L115 150 L85 150 Z' fill='#8B4513'/>
+  <circle cx='95' cy='120' r='3' fill='#FFD700'/>
+  <path d='M100 155 L100 175 M85 165 L115 165 M90 172 L110 172' stroke='#4CAF50' stroke-width='4' fill='none'/>
+  <circle cx='100' cy='165' r='18' fill='none' stroke='#4CAF50' stroke-width='4'/>
+  <path d='M92 165 L98 171 L110 157' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/>
+  <path d='M130 60 L145 55 L150 70 M135 65 L140 63' stroke='#A9A9A9' stroke-width='2' fill='none'/>
+  <path d='M175 85 L185 88 L180 98' stroke='#87CEEB' stroke-width='2' fill='none'/>
+</svg>

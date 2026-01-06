@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global tweaks for mobile feel */
+* { -webkit-tap-highlight-color: transparent; }
+html, body, #root { height: 100%; }
+body { overscroll-behavior: none; -webkit-overflow-scrolling: touch; }
+
+/* Center on desktop, full on mobile */
+.app-shell {
+  @apply min-h-screen bg-gray-50 pb-20;
+}
+@media (min-width: 768px) {
+  .phone-wrapper { @apply max-w-sm mx-auto shadow-xl bg-white min-h-screen; }
+}
